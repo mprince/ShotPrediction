@@ -1,10 +1,10 @@
 The goal of this exercise was predicts the likelihood that a given basketball shot will go in. Play by play data is provided through http://www.basketballgeek.com/data/  for the the 2006-2010 seasons. 
 
 So given a set of data, a system has to be trained in order to predict the correct results up to a certain level of confidence. So given a shot at point (x,y), the system should to see if the shot was made or missed. I thought of implementing a neural network, a machine learning tool inspired by the brain(http://en.wikipedia.org/wiki/Artificial_neural_network). So in this repo will be included the implementation of a simple neural network using fully-connected layers, and trained using the backpropagation algorithm. This means that for each shot, the following will be done:
-• Use the shot coordinates to set the activations of your input layer
-• Propagate the activations up to the top layer
-• Compare the top layer activation with the result of the shot
-• Backpropagate the error (if any) down the network to adjust weights
+* Use the shot coordinates to set the activations of your input layer
+* Propagate the activations up to the top layer
+* Compare the top layer activation with the result of the shot
+* Backpropagate the error (if any) down the network to adjust weights
 
 The parameters for the learning algorithm are as follow:
 inputSize: would be equal to 2 as the number of coordinates, one for x and one for y
